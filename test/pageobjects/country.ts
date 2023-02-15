@@ -3,6 +3,7 @@ class country{
     public async countryName(cntry:string) {
         const county = await $("//strong[text()='" + cntry + "']")
         return  county.getText()
+        //India
         
     }
 
