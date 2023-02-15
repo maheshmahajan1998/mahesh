@@ -62,7 +62,6 @@ describe('WebElement', async () => {
         await country.tickBox(cntry)
         await expect(nameOfTheCountry).toBeChecked()
 
-        //validate the  country name is checked or not
 
         
 
