@@ -1,1 +1,3 @@
 node_modules
+git check-ignore -v -n package-lock.json
+::      package-lock.json
